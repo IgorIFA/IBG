@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/css/global.css" rel="stylesheet" />
+		<link href="/css/main.css" rel="stylesheet" />
+		<title> Forum </title>
+	</head>
+	<body>
+		<header class="container" id="main-header">
+			<a href="/">
+				<img src="./assets/#" alt="Forum" />
+			</a>
+			<nav class="nav-menu">
+				<a href="filmes/" onclick="route()">Ver filmes</a>
+				<a href="/register.html" onclick="route()">Criar conta</a>
+				<a href="/login.html" onclick="route()">Login</a>
+			</nav>
+	
+				<div class="search-container">
+					<input type="text" class="search-input" placeholder="Pesquisar..." />
+					<div class="search-icon">&#128269;</div>
+				</div>
+
+				<nav class="drawer-menu">
+					<a href="/eventos" onclick="route()">Ver filmes é series</a>
+					<a href="/criar-conta" onclick="route()">Quero Criticar</a>
+					<a href="/login" onclick="route()">Login</a>
+				</nav>
+
+			</div>
+		</header>
+		<main class="container" id="app"></main>
+		<footer class="container">
+			<div class="footer-container">
+				<div class="description">
+					<h3>Forum</h3>
+					<p>A melhor plataforma de criticas a filmes é series</p>
+				</div>
+				<p>
+					Made with <span class="heart">♥</span> by
+					<a href="#" target="_blank">forum</a
+					>
+				</p>
+			</div>
+		</footer>
+		<script type="module" src="./js/app.js"></script>
+	</body>
+</html>
